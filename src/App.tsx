@@ -1,25 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+/* Imported Boostrap to apply across the whole of the APP. */
+import 'bootstrap/dist/css/bootstrap.css';
+
+/* Import Performances Component */
+import Performances from './pages/Performances';
 
 function App() {
+
+  /* Performances component to render the table */
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <Performances/>
   );
 }
 
