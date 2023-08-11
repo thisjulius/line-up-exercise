@@ -1,4 +1,4 @@
-# Project Name
+# Line-up Exercise
 
 Welcome to the **Line-up Exercise** repository! This project aims to provide a template for setting up a project that interacts with an API using a token stored in a `.env` file that can display content from Line-up REST API.
 This README will guide you through the process of cloning the repository, installing the necessary dependencies, and configuring your API token.
