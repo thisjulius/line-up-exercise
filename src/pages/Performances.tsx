@@ -26,7 +26,7 @@ const Performances = () => {
     <Container className="pt-5 pb-5"> 
       <h1 className='pt-4 pb-5'>Peformances</h1>
       {/* Map through the data and assign data structure of what is to be expected using TypeScript */}
-      {performances?.pricing.map((performance: IPerformance, index: number) => (
+      {performances?.pricing.map((performance: IPerformance) => (
         <ListPerformance key={performance.id} {...performance.priceBand} />
       ))}
     </Container>
