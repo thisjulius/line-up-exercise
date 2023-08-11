@@ -28,12 +28,6 @@ Before you begin, ensure you have the following installed on your machine:
     ``` cd project-name```
 2. Install dependencies: ``` npm install ``` 
 
-
-// Git clone project link
-// Install required dependencies by running npm install 
-// Create .env file in the root folder and store variable as TOKEN=the_token
-
-
 ### Configure API Token
 In the root directory of the project, ```create a .env file```.
 Open the .env file in a text editor of your choice.
